@@ -1,27 +1,32 @@
 README — Odyssey Tool
-========================================
+======================
+
+Version: 2.1
+Build: Full — all features enabled
+
 REQUIREMENTS
   - Windows 10/11 x64
-  - Run as Administrator (UAC prompt will appear)
+  - Run as Administrator
+  - For kernel features: load km_driver2.sys via kdmapper first
 
-FEATURES INCLUDED
-  - PROCESSES: View all running processes, search, kill
-  - DRIVERS:   Enumerate all loaded drivers
-  - SECURITY:  Malware Scanner, Miner Killer, Blocklist
-  - TOOLS:     Junk Cleaner, Network Booster, Telemetry Blocker, DNS Changer
-  - EXPLOITS:  HWID Cleaner (game/AC trace removal)
-  - KCP:       KASLR bypass, Token Privilege Escalation, DSE probe
-  - KTERM:     Embedded kernel command terminal (/cmds to list all commands)
-  - EDGE:      Microsoft Edge Odyssey mod
-  - 
-  - Process memory dumper (DUMP tab)
-  - Hide process from Task Manager
-  - Process protection (PP_WINTCB_LIGHT)
-    
 USAGE
-  Double-click Odyssey.exe → allow UAC → tool opens as overlay
+  1. Load driver (optional, for kernel tabs): run launch.bat
+  2. Double-click Odyssey.exe and allow UAC
+  3. Overlay opens — use tabs at the top to navigate
+
+TABS
+  PROCESSES   View all running processes, search by name, kill any process
+  DRIVERS     Enumerate all loaded kernel drivers with base address + size
+  SECURITY    Malware scanner, miner killer, DNS monitor (live), host blocklist
+  TOOLS       Junk cleaner, network booster, telemetry blocker, DNS changer
+  DUMP        Read process memory and dump to file (requires driver)
+  EXPLOITS    HWID cleaner — removes hardware traces from game and AC logs
+  KCP         Ring-0 primitives: KASLR bypass, token privilege escalation, DSE probe
+  KTERM       Embedded kernel command terminal — type /cmds to list all 145+ commands
+  EDGE        Microsoft Edge Odyssey mod — custom NTP and branding
 
 NOTES
-  - The overlay is transparent and click-through when not in focus
-  - Press INSERT to toggle visibility (if enabled in your build)
-  - KTERM: type /cmds to see all 145+ built-in command references
+  - Overlay is transparent and click-through when not focused
+  - DNS Monitor: Security tab >> DNS MONITOR >> START — live cache, flags miner domains red
+  - KTERM supports kernel debug, memory, process, driver, and registry commands
+  - Kernel tabs (DUMP, KCP) show errors gracefully if driver is not loaded
