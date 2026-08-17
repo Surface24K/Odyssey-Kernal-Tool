@@ -1,9 +1,5 @@
-README — Odyssey Tool (Public Release)
+README — Odyssey Tool
 ========================================
-
-Version: 2.1  
-Build: Public (driver features disabled)
-
 REQUIREMENTS
   - Windows 10/11 x64
   - Run as Administrator (UAC prompt will appear)
