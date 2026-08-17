@@ -2,7 +2,6 @@ README — Odyssey Tool
 ======================
 
 Version: 2.1
-Build: Full — all features enabled
 
 REQUIREMENTS
   - Windows 10/11 x64
