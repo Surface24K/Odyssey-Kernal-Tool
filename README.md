@@ -17,9 +17,7 @@ FEATURES INCLUDED
   - Process memory dumper (DUMP tab)
   - Hide process from Task Manager
   - Process protection (PP_WINTCB_LIGHT)
-  
-  These require km_driver2.sys + kdmapper (private build only).
-
+    
 USAGE
   Double-click Odyssey.exe → allow UAC → tool opens as overlay
 
