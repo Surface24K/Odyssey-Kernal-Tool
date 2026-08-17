@@ -13,8 +13,7 @@ FEATURES INCLUDED
   - KCP:       KASLR bypass, Token Privilege Escalation, DSE probe
   - KTERM:     Embedded kernel command terminal (/cmds to list all commands)
   - EDGE:      Microsoft Edge Odyssey mod
-
-DRIVER FEATURES (disabled in public build)
+  - 
   - Process memory dumper (DUMP tab)
   - Hide process from Task Manager
   - Process protection (PP_WINTCB_LIGHT)
