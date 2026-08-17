@@ -29,3 +29,7 @@ NOTES
   - DNS Monitor: Security tab >> DNS MONITOR >> START — live cache, flags miner domains red
   - KTERM supports kernel debug, memory, process, driver, and registry commands
   - Kernel tabs (DUMP, KCP) show errors gracefully if driver is not loaded
+
+
+
+<img width="804" height="775" alt="image" src="https://github.com/user-attachments/assets/212cbab9-12a7-436d-8264-d0ef8eb1301e" />
